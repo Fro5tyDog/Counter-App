@@ -1,0 +1,8 @@
+{
+  "appId": "com.fro5tydog.bagtally",
+  "appName": "Bag Tally",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never"
+  }
+}

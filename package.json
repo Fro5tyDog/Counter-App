@@ -1,0 +1,20 @@
+{
+  "name": "bag-tally",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ties each person's unique ID to their bag number. Runs offline on iPhone (sideloaded) and on GitHub Pages.",
+  "scripts": {
+    "build": "bash scripts/build-www.sh"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/filesystem": "^7.0.0",
+    "@capacitor/share": "^7.0.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/assets": "^3.0.5"
+  }
+}
